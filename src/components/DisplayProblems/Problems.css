@@ -1,0 +1,49 @@
+.problems{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.problems .topic{
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-shadow: 1px 1px 1px grey;
+}
+.problems-container{
+    margin-inline: 1rem;
+}
+.problems-container .problem-set{
+    border:1px solid grey;
+    margin-block:2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.problem-set .easy{
+    background-color: lightgreen;
+}
+.problem-set .medium{
+    background-color: yellow;
+}
+.problem-set .hard{
+    background-color: orange;
+}
+.easy, .hard, .medium{
+    padding:0.6rem;
+    border-radius: 0.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.problem-set .set p{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0;
+    box-shadow: 2px 2px 2px grey;
+    font-family:serif;
+}
+.problem-set .set .checkbox{
+    min-height: 1.5rem;
+    min-width: 1.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.problem-set a{
+    font-family: 'Poppins', sans-serif;
+}

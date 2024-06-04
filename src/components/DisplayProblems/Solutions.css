@@ -1,0 +1,31 @@
+.solution{
+    margin: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.solution .name{
+    font-size: 2rem;
+    margin-block:1rem;
+}
+.solution .easy{
+    background: lightgreen;
+}
+.easy, .medium, .hard{
+    font-family: 'Poppins', sans-serif;
+}
+.solution .medium{
+    background: yellow;
+}
+.solution .hard{
+    background: orange;
+}
+.solution a{
+    display: block;
+    margin-block: 1rem;
+    padding: 0.5rem 1rem;
+    background:deepskyblue;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    box-shadow: 2px 2px 4px black;
+    color: grey;
+}

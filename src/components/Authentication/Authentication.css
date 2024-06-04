@@ -1,0 +1,68 @@
+.authentication{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.authentication .title{
+    margin: 0;
+    padding: 0.5rem 1rem;
+    font-weight: lighter;
+    font-size: 2rem;
+    color: white;
+}
+.authentication .underline{
+    width: 4rem;
+    height: 0.2rem;
+    background-color: white;
+}
+.authentication .form{
+    width: 100%;
+    max-width: 23rem;
+    background:linear-gradient(50deg,blue,violet);
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.form .field{
+    margin-block: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    font-family: 'Poppins',sans-serif;
+}
+.form input::placeholder{
+    color: rgb(181, 181, 181);
+    font-size: 0.9rem;
+}
+.form .submit{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-inline: 1rem;
+    border: none;
+    background-color:deeppink;
+    font-family: Poppins sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    font-weight:600;
+}
+.form .grey{
+    background-color: grey;
+}
+.form .auth-error{
+    color:orange;
+    font-weight: lighter;
+}
